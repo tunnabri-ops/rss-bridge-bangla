@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Bangla news feeds — one-click import into Miniflux / FreshRSS / any OPML reader.
+     Same 5 feeds as bangla_tools_server.py in mcp-servers-bangla (all HTTP 200
+     on 2026-11-24). Use with rss-bridge-bangla: add RSS-Bridge-made feeds to
+     this file the same way, or paste the OPML into your reader. -->
+<opml version="2.0">
+  <head>
+    <title>Bangla News Feeds</title>
+  </head>
+  <body>
+    <outline text="Bangla News" title="Bangla News">
+      <outline type="rss" text="প্রথম আলো" title="প্রথম আলো" xmlUrl="https://www.prothomalo.com/stories.rss" htmlUrl="https://www.prothomalo.com/" />
+      <outline type="rss" text="বিবিসি বাংলা" title="বিবিসি বাংলা" xmlUrl="https://feeds.bbci.co.uk/bengali/rss.xml" htmlUrl="https://www.bbc.com/bengali" />
+      <outline type="rss" text="বিডিনিউজ টোয়েন্টিফোর ডটকম (বাংলা)" title="বিডিনিউজ টোয়েন্টিফোর ডটকম (বাংলা)" xmlUrl="https://bangla.bdnews24.com/rss" htmlUrl="https://bangla.bdnews24.com/" />
+      <outline type="rss" text="The Daily Star" title="The Daily Star" xmlUrl="https://www.thedailystar.net/rss.xml" htmlUrl="https://www.thedailystar.net/" />
+      <outline type="rss" text="চ্যানেল আই অনলাইন" title="চ্যানেল আই অনলাইন" xmlUrl="https://www.channelionline.com/rss" htmlUrl="https://www.channelionline.com/" />
+    </outline>
+  </body>
+</opml>
