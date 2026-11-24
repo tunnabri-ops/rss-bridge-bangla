@@ -1,0 +1,13 @@
+services:
+  rss-bridge:
+    image: rssbridge/rss-bridge:latest
+    container_name: rss-bridge
+    ports:
+      - "8080:80"
+    volumes:
+      - ./config.ini.php:/app/config.ini.php:ro
+      - rss-bridge-cache:/app/cache
+    restart: unless-stopped
+
+volumes:
+  rss-bridge-cache:
